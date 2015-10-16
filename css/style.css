@@ -1,0 +1,255 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body{
+    background-color: #f8b500;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+header{
+  padding-top: 25px;
+  min-height: 100px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f73d25+0,f8b500+16,f8b500+37,f8b500+40,f8b500+40,f2fc3a+51,f2fc3a+51,f8b500+64,f8b500+86,ea3d09+100 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f73d25+12,f8b500+35,f7ce65+50,f8b500+65,ea3d09+88 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f73d25+28,f73d25+28,f8b500+45,f7ce65+50,f8b500+55,ea3d09+72 */
+  background: #f73d25; /* Old browsers */
+  background: -moz-linear-gradient(left,  #f73d25 28%, #f73d25 28%, #f8b500 45%, #f7ce65 50%, #f8b500 55%, #ea3d09 72%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(28%,#f73d25), color-stop(28%,#f73d25), color-stop(45%,#f8b500), color-stop(50%,#f7ce65), color-stop(55%,#f8b500), color-stop(72%,#ea3d09)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #f73d25 28%,#f73d25 28%,#f8b500 45%,#f7ce65 50%,#f8b500 55%,#ea3d09 72%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #f73d25 28%,#f73d25 28%,#f8b500 45%,#f7ce65 50%,#f8b500 55%,#ea3d09 72%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #f73d25 28%,#f73d25 28%,#f8b500 45%,#f7ce65 50%,#f8b500 55%,#ea3d09 72%); /* IE10+ */
+  background: linear-gradient(to right,  #f73d25 28%,#f73d25 28%,#f8b500 45%,#f7ce65 50%,#f8b500 55%,#ea3d09 72%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f73d25', endColorstr='#ea3d09',GradientType=1 ); /* IE6-9 */
+
+  margin-bottom: 1px;
+}
+
+header form{
+  float: right;
+  color: white;
+}
+
+footer {
+  padding-top: 10px;
+  color: white;
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f73d25+0,f8b500+16,f8b500+37,f8b500+40,f8b500+40,f2fc3a+51,f2fc3a+51,f8b500+64,f8b500+86,ea3d09+100 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f73d25+28,f73d25+28,f8b500+45,f7ce65+50,f8b500+55,ea3d09+72 */
+  background: #f73d25; /* Old browsers */
+  background: -moz-linear-gradient(left,  #f73d25 28%, #f73d25 28%, #f8b500 45%, #f7ce65 50%, #f8b500 55%, #ea3d09 72%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(28%,#f73d25), color-stop(28%,#f73d25), color-stop(45%,#f8b500), color-stop(50%,#f7ce65), color-stop(55%,#f8b500), color-stop(72%,#ea3d09)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #f73d25 28%,#f73d25 28%,#f8b500 45%,#f7ce65 50%,#f8b500 55%,#ea3d09 72%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #f73d25 28%,#f73d25 28%,#f8b500 45%,#f7ce65 50%,#f8b500 55%,#ea3d09 72%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #f73d25 28%,#f73d25 28%,#f8b500 45%,#f7ce65 50%,#f8b500 55%,#ea3d09 72%); /* IE10+ */
+  background: linear-gradient(to right,  #f73d25 28%,#f73d25 28%,#f8b500 45%,#f7ce65 50%,#f8b500 55%,#ea3d09 72%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f73d25', endColorstr='#ea3d09',GradientType=1 ); /* IE6-9 */
+
+}
+
+.signup-header{
+  float: left;
+  position: relative;
+  top: 10px;
+  left: 200px;
+}
+
+.information{
+  color: #f4f4ef;
+}
+
+
+.signup{
+  float: left;
+  position: relative;
+  left: 90px;
+  top: -25px;
+}
+
+.carousel .carousel-inner{
+  height: 300px;
+}
+
+.carousel .carousel-inner .item{
+    height: 100%;
+}
+
+.carousel .carousel-inner img{
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+
+}
+
+h3{
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+.panel-default{
+  border: none;
+}
+/*registration.html */
+.registrationForm{
+  margin: 10px;
+}
+
+/*wedding.html*/
+.edit-icon{
+  float: right;
+  position: relative;
+  top: -15px;
+}
+
+.wedding-details .panel-heading{
+  color: white;
+  background: #f73d25; /* Old browsers */
+  background: -moz-linear-gradient(left,  #f73d25 28%, #f73d25 28%, #f8b500 45%, #f7ce65 50%, #f8b500 55%, #ea3d09 72%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(28%,#f73d25), color-stop(28%,#f73d25), color-stop(45%,#f8b500), color-stop(50%,#f7ce65), color-stop(55%,#f8b500), color-stop(72%,#ea3d09)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #f73d25 28%,#f73d25 28%,#f8b500 45%,#f7ce65 50%,#f8b500 55%,#ea3d09 72%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #f73d25 28%,#f73d25 28%,#f8b500 45%,#f7ce65 50%,#f8b500 55%,#ea3d09 72%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #f73d25 28%,#f73d25 28%,#f8b500 45%,#f7ce65 50%,#f8b500 55%,#ea3d09 72%); /* IE10+ */
+  background: linear-gradient(to right,  #f73d25 28%,#f73d25 28%,#f8b500 45%,#f7ce65 50%,#f8b500 55%,#ea3d09 72%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f73d25', endColorstr='#ea3d09',GradientType=1 ); /* IE6-9 */
+  border: 1px solid red;
+}
+
+.wedding-details .panel-body{
+  text-align: center;
+}
+
+.parent-details{
+    /*float: left;*/
+    text-align: left;
+    position: relative;
+    top: 40px;
+    left: -70px;
+}
+
+#bridePhoto, #groomPhoto{
+  /*margin-left: auto;*/
+  /*margin-left: auto;*/
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  /*left: 260px;*/
+  width: 80px;
+  margin-bottom: 0;
+}
+
+#brideName, #groomName{
+  float: left;
+  position: relative;
+  /*left: 270px;*/
+  /*top: 10px;*/
+
+}
+
+.groom, .bride{
+  /*position: fixed;*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  /*margin-bottom: 0;*/
+}
+
+.page-title, .messages, .wishlist .panel-heading{
+  color: white;
+  background: #f73d25; /* Old browsers */
+  background: -moz-linear-gradient(left,  #f73d25 28%, #f73d25 28%, #f8b500 45%, #f7ce65 50%, #f8b500 55%, #ea3d09 72%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(28%,#f73d25), color-stop(28%,#f73d25), color-stop(45%,#f8b500), color-stop(50%,#f7ce65), color-stop(55%,#f8b500), color-stop(72%,#ea3d09)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #f73d25 28%,#f73d25 28%,#f8b500 45%,#f7ce65 50%,#f8b500 55%,#ea3d09 72%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #f73d25 28%,#f73d25 28%,#f8b500 45%,#f7ce65 50%,#f8b500 55%,#ea3d09 72%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #f73d25 28%,#f73d25 28%,#f8b500 45%,#f7ce65 50%,#f8b500 55%,#ea3d09 72%); /* IE10+ */
+  background: linear-gradient(to right,  #f73d25 28%,#f73d25 28%,#f8b500 45%,#f7ce65 50%,#f8b500 55%,#ea3d09 72%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f73d25', endColorstr='#ea3d09',GradientType=1 ); /* IE6-9 */
+  /*border: 1px solid red;*/
+}
+
+
+.wishlist .progress-bar{
+  color: grey;
+}
+
+/* messages.html */
+
+.post-avatar {
+  margin-bottom: 5px;
+}
+.post-avatar img{
+  width: 75px;
+
+  /*float: left;*/
+}
+
+.bubble{
+  float: left;
+  position: relative;
+  width: 580px;
+  min-height: 65px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.bubble:after{
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 15px 15px 15px 0;
+  border-color: transparent white;
+  display: block;
+  width:0;
+  z-index: 1;
+  margin-top: -15px;
+  left: -15px;
+  top: 50%;
+}
+
+.bubble:before{
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 15px 15px 15px 0;
+  border-color: transparent #ccc;
+  display: block;
+  width:0;
+  z-index: 0;
+  margin-top: -15px;
+  left: -16px;
+  top: 50%;
+}
+ .contribution{
+   border: 1px solid #ccc;
+   border-radius: 10px;
+ }
+
+ .line{
+   max-width: 100%;
+ }
+
+/* Edit Wish List*/
+.page-title{
+  border-radius: 5px;
+}
+
+.header-row{
+  margin-top: 10px;
+  border: 1px solid #ea3d09;
+  border-radius: 5px;
+}
+
+.input-row{
+  margin-top: 5px;
+  padding-top: 5px;
+  /*padding-bottom: 5px;*/
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
